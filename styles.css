@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+    font-family: 'Press Start 2P', cursive; /* Fuente pixelada */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    background-color: #000; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+}
+
+.container {
+    background: #1e1e1e; /* Fondo oscuro para el contenido */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    max-width: 80%; /* Ajusta el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.pixel-font {
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffcc00; /* Color dorado para los títulos */
+    animation: blink 1.5s infinite; /* Animación de parpadeo retro */
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #aaa; /* Color gris claro para subtítulos */
+    margin-bottom: 20px;
+}
+
+.artist-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Temas específicos */
+
+/* Tema retro general */
+.retro-theme {
+    background-color: #000; /* Negro profundo */
+}
+
+/* Tema azul retro */
+.blue-retro-theme {
+    background-color: #0d1b2a; /* Azul oscuro */
+}
+
+/* Tema verde retro */
+.green-retro-theme {
+    background-color: #162427; /* Verde oscuro */
+}
+
+/* Botones retro */
+.blue-retro {
+    background-color: #1a73e8; /* Azul brillante */
+}
+
+.green-retro {
+    background-color: #34a853; /* Verde brillante */
+}
+
+.back-button-retro {
+    background-color: #ffcc00; /* Dorado retro */
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.back-button-retro:hover {
+    background-color: #e6b800; /* Dorado más oscuro */
+    opacity: 0.8;
+}
+
+/* Efecto hover para botones */
+.button:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #aaa; /* Color gris claro */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 2px solid #ffcc00; /* Borde dorado */
+    padding-top: 10px;
+}
